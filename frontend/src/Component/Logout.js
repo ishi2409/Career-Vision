@@ -7,7 +7,7 @@ const Logout = () => {
   const navigate = useNavigate();
   const callBack = async () => {
       try {
-          await fetch("/logout", {
+          await fetch("https://career-visioon.onrender.com/logout", {
               method: "GET",
               headers: {
                   Accept: "application/json",

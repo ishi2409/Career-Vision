@@ -25,7 +25,7 @@ const Register = () => {
     // const res = await axios.post("/register", {
     //     name, email, phone, work, password, cpassword
     // });
-    axios.post("/register", {
+    axios.post("https://career-visioon.onrender.com/register", {
            name, email, phone, work, password, cpassword
       })
     .then(response => {

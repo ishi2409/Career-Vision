@@ -23,7 +23,7 @@ const Login = () => {
     const {  email, password } = user;
     
     try {
-      const res = await axios.post("/signin", {
+      const res = await axios.post("https://career-visioon.onrender.com/signin", {
         email, password
     });
     if (res.status === 422 || !res) {
